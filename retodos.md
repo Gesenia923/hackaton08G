@@ -201,6 +201,8 @@ edad de la persona de menor edad
 
 FinAlgoritmo
 
+![](https://raw.githubusercontent.com/Gesenia923/hackaton08G/master/img/ejercicio010.png)
+
 11. Se les dará un bono por antigüedad a los empleados de una tienda. Si tienen un
 año, se les dará $100; si tienen 2 años, $200, y así sucesivamente hasta los 5
 años. Para los que tengan más de 5, el bono será de $1000. Realice un algoritmo
@@ -222,15 +224,45 @@ y represéntelo ,que permita determinar el bono que recibirá un trabajador
 	
     FinAlgoritmo
 
+![](https://raw.githubusercontent.com/Gesenia923/hackaton08G/master/img/ejercicio11.png)
+
 12. Un profesor tiene un salario inicial de $1500, y recibe un incremento de 10 % anual
 durante 6 años. ¿Cuál es su salario al cabo de 6 años? ¿Qué salario ha recibido
 en cada uno de los 6 años? Realice el algoritmo y representan la solución,
 utilizando el ciclo apropiado
 
-     Algoritmo 
+Opción 1:
 
-         Definir
-         Definir
+    Algoritmo IncrementoSalario
+	
+	Definir salario Como Real
+	Definir x, años Como entero
+	Escribir "dar salario"
+	leer salario
+	Escribir "cantidad de años"
+	leer años
+	x = 1
+	Mientras x <= años Hacer
+		salario = salario + (salario*0.10)
+		Escribir "el salario en el año", x, " es de:" , salario
+		x = (x+1)
+	FinMientras
+	
+FinAlgoritmo
+
+Opcion 2:
+ 
+    Algoritmo para_calculo_salario
+    Definir i Como Entero;
+    Definir salario Como Real;
+    salario <- 1500;
+    Para i<-0 Hasta 6 Con Paso 1 Hacer
+        Escribir "Año: ", i, " - Salario: ", trunc(salario*100)/100;    buscar"trunc"
+        salario <- salario * 1.1;
+    FinPara
+    FinAlgoritmo
+
+
 13. Realice un algoritmo para leer las calificaciones de N alumnos y determine el
 número de aprobados y reprobados
 
