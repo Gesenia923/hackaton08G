@@ -62,7 +62,7 @@ deberá imprimir en pantalla
 
 4. Calcular el área de un triángulo
 
-   Algoritmo AreadeTriangulo
+     Algoritmo AreadeTriangulo
 
       Definir Resultado como entero
       Definir b como entero
@@ -76,7 +76,7 @@ deberá imprimir en pantalla
       Resultado = ((b*h)/2)
       Escribir "El área del triángulo es"," " Resultado
 
-      FinAlgoritmo 
+     FinAlgoritmo 
 
 5. Calcular el área de una circunferencia
 
