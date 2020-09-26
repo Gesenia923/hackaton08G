@@ -14,6 +14,7 @@ deberá imprimir en pantalla
 
         Total = (a + b)
         Escribir "Resultado"," " total
+
      FinAlgoritmo
 
 2. Un estudiante realiza 4 exámenes, calcular el promedio de estos
@@ -40,7 +41,6 @@ deberá imprimir en pantalla
 
      FinAlgoritmo
 
-
 3. Calcular el área de un rectángulo
 
      Algoritmo AREADERECTANGULO
@@ -58,7 +58,6 @@ deberá imprimir en pantalla
         Escribir "El área del rectángulo es", " " Resultado
 
      FinAlgoritmo  
-
 
 4. Calcular el área de un triángulo
 
@@ -113,8 +112,8 @@ trabajadas y su salario de hora hombre
         HorasSemana = (Horas*7)
         Salario = (HorasSemana * SueldoHora)
         Escribir "Sueldo semanal es", " " Salario
-     FinAlgoritmo
 
+     FinAlgoritmo
 
 7. Una modista, para realizar sus prendas de vestir, encarga las telas al extranjero.
 Para cada pedido, tiene que proporcionar las medidas de la tela en pulgadas,
@@ -123,6 +122,7 @@ los metros que requiere. Represéntelo mediante el diagrama de flujo y el
 pseudocódigo (1 pulgada = 0.0254 m).
 
     Algoritmo MODISTA
+
 	    Definir resultado Como Real
 	    Definir pulgada Como Real
 	    Definir metro Como Real
@@ -140,6 +140,7 @@ pseudocódigo (1 pulgada = 0.0254 m).
 con equis cantidad de dinero peruano
 
    Algoritmo DOLARES
+
 	    Definir resultado Como Real
 	    Definir dólares Como Real
 	    Definir soles Como Real
@@ -149,6 +150,7 @@ con equis cantidad de dinero peruano
 	     Leer soles
 	    resultado = soles*dólares
 	    Escribir "Puede adquirir"," " "$" resultado 
+
    FinAlgoritmo 
 
 9. Una empresa que contrata personal requiere determinar la edad de las
@@ -169,18 +171,20 @@ les pregunta el año en que nacieron
 	     Leer año1
 	    resultado = (año1 - año)
 	    Escribir "La edad es", " " resultado
+
   FinAlgoritmo
 
 10. Se tiene el nombre y la edad de tres personas. Se desea saber el nombre y la
 edad de la persona de menor edad
 
    Algoritmo EDADMENOR
+
 	    Definir edad1, edad2,edad3 Como Entero
 	    Escribir "Ingrese edad uno"
 	     leer edad1
 	    Escribir "Ingrese edad dos"
 	     leer edad2
-	     Escribir "Ingrese edad tres"
+	    Escribir "Ingrese edad tres"
 	     Leer edad3
 	      Si edad1 <= edad2 y edad1 <= edad3
 		     Imprimir "El menor es edad uno con"," " edad1," " "años"
@@ -192,6 +196,7 @@ edad de la persona de menor edad
 			         Imprimir "El menor es edad  tres con"," " edad3," " "años"
 		FinSi
 	FinSi
+
 FinAlgoritmo
 
 11. Se les dará un bono por antigüedad a los empleados de una tienda. Si tienen un
@@ -199,8 +204,21 @@ año, se les dará $100; si tienen 2 años, $200, y así sucesivamente hasta los
 años. Para los que tengan más de 5, el bono será de $1000. Realice un algoritmo
 y represéntelo ,que permita determinar el bono que recibirá un trabajador
 
-    Algoritmo 
-        Definir 
+    Algoritmo BonoporAntiguedad
+
+	    Definir antiguedad Como Real
+	    Definir  bono Como Real
+	
+	    Escribir "Ingrese el año de antiguedad"
+	     Leer antiguedad
+	    Si antiguedad <= 5 Entonces
+		 bono<- antiguedad*100;
+	    SiNo
+		 bono <- 1000;
+	    FinSi
+	    Escribir "valor de bono", " " bono;
+	
+    FinAlgoritmo
 
 12. Un profesor tiene un salario inicial de $1500, y recibe un incremento de 10 % anual
 durante 6 años. ¿Cuál es su salario al cabo de 6 años? ¿Qué salario ha recibido
