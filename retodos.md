@@ -238,9 +238,9 @@ Opción 1:
 	Definir salario Como Real
 	Definir x, años Como entero
 	Escribir "dar salario"
-	leer salario
+	 leer salario
 	Escribir "cantidad de años"
-	leer años
+	 leer años
 	x = 1
 	Mientras x <= años Hacer
 		salario = salario + (salario*0.10)
@@ -253,13 +253,15 @@ FinAlgoritmo
 Opcion 2:
  
     Algoritmo para_calculo_salario
-    Definir i Como Entero;
-    Definir salario Como Real;
-    salario <- 1500;
-    Para i<-0 Hasta 6 Con Paso 1 Hacer
-        Escribir "Año: ", i, " - Salario: ", trunc(salario*100)/100;    buscar"trunc"
+    
+       Definir i Como Entero;
+       Definir salario Como Real;
+        salario <- 1500;
+       Para i<-0 Hasta 6 Con Paso 1 Hacer
+       Escribir "Año: ", i, " - Salario: ", trunc(salario*100)/100;    buscar"trunc"
         salario <- salario * 1.1;
     FinPara
+
     FinAlgoritmo
 
 
