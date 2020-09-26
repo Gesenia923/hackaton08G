@@ -133,8 +133,10 @@ pseudocódigo (1 pulgada = 0.0254 m).
 	     Leer metro
 	    resultado = metro/pulgada
 	    Escribir "Cantidad de pulgadas a pedir es", " " resultado
+
     FinAlgoritmo
 
+    ![](https://raw.githubusercontent.com/Gesenia923/hackaton08G/master/img/ejercicio07.png)
 
 8. Una empresa importadora desea determinar cuántos dólares puede adquirir
 con equis cantidad de dinero peruano
@@ -224,28 +226,41 @@ y represéntelo ,que permita determinar el bono que recibirá un trabajador
 durante 6 años. ¿Cuál es su salario al cabo de 6 años? ¿Qué salario ha recibido
 en cada uno de los 6 años? Realice el algoritmo y representan la solución,
 utilizando el ciclo apropiado
+
+     Algoritmo 
+
+         Definir
+         Definir
 13. Realice un algoritmo para leer las calificaciones de N alumnos y determine el
 número de aprobados y reprobados
+
+     Algoritmo
+         Definir 
+         Definir
+
 14. Una compañía, fabrica focos de colores (verdes, blancos y rojos). Se desea
 contabilizar, de un lote de N focos, el número de focos de cada color que hay en
 existencia
+
+     Algoritmo
+         Definir
+         Definir
+         
 15. Realice un algoritmo para determinar si una persona puede votar con base en
 su edad en las próximas elecciones
 
-    AlgoritmoVOTARENELECCIONES
-     
-     Definir edad como Entero
-     
-     Escribir "Ingresa tu edad"
-     Leer edad
-
-     Si (edad >=18) Entonces
-     Escribir "Puedes Votar" 
-
-     SiNo
-     Escribir "No puedes votar"
-    
+    Algoritmo VOTARENELECCIONES
+         
+         Definir edad como Entero
+         Escribir "Ingresa tu edad"
+             Leer edad
+         Si (edad >=18) Entonces
+         Escribir "Puedes Votar" 
+         SiNo
+         Escribir "No puedes votar"
     FinSi 
+
+    FinAlgoritmo
 
 
 
